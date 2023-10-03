@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=El+Messiri');
+
+html, body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'El Messiri', sans-serif;
+  background: #6456;
+}
+
+#header {
+  
+  background-size: cover;
+  position: fixed;
+  height: 90%;
+  bottom: 10%;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+#header .center {
+  background: rgba(0, 0, 0, 0.25);
+  text-align: center;
+  position: absolute;
+  color: #FFFFFF;
+  color: #F5F7FA;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+#header .center .middle {
+  position: absolute;
+  margin-top: -8em;
+  right: 0;
+  left: 0;
+  top: 50%;
+}
+#header .center .middle h1 {
+  font-family: 'El Messiri', sans-serif;
+  font-weight: normal;
+  line-height: 1em;
+  font-size: 11em;
+  margin: 0;
+  text-shadow: -3px 13px 18px black;
+}
+#header .center .middle span {
+  line-height: 5em;
+  font-size: 1em;
+}
+
+#pageHr {
+  background: #FFFFFF;
+  position: relative;
+  height: 5px;
+  display: block;
+  right: 0px;
+  left: 0px;
+  top: 90%;
+  z-index: 1;
+}
+#pageHr > i {
+  margin: -25px;
+  border: 5px solid #FFFFFF;
+  height: 40px;
+  width: 40px;
+  background: #3c4e69;
+  position: absolute;
+  display: block;
+  left: 50%;
+  top: 50%;
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+#pageHr > i > i {
+  font-family: 'El Messiri', sans-serif;
+  line-height: 36.8px;
+  font-size: 20px;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  position: absolute;
+  color: #FFFFFF;
+  display: block;
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+#page {
+  background: #3c4e69;
+  position: relative;
+  height: 123.45%;
+  top: 90%;
+}
